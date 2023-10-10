@@ -15,7 +15,7 @@ Example:
 ```narrat
 main:
   set player.name (text_field "Enter your name")
-  "Your name is %{playerName}"
+  "Your name is %{$player.name}"
 ```
 
 ![Text field example](./images/text-field.png)
